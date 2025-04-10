@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="Description" content="Team 15 Meeting Minutes"/>
+    <title>CSE 110 Meeting Minutes (Team 15)</title>
+    <link rel="icon" href="favicon.ico"/>
+  </head>
+  
+  <body>
+    <header>
+      <h1>Team 15 Meeting Minutes</h1>
+      <h2>Topic: Getting to know the team</h2>
+      <h3>Date: April 8, 2025</h3>
+      <nav>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#unfinish">Unfinished business</a></li>
+          <li><a href="#newbus">New business</a></li>
+          <li><a href="#miscellaneous">Miscellaneous</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#form">Form</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Dhruv Agarwal<strong>(Team Lead)</strong></li>
+          <li>Haoyan Wan<strong>(Team Lead)</strong></li>
+          <li>Hetvi Gandhi</li>
+          <li>Nasser Alnasser</li>
+          <li>Adam Connor</li>
+          <li>Ahmed Abdullahi</li>
+          <li>Damian Nieto</li>
+          <li>Kiichiro Wang</li>
+          <li>Pantea Foroutan</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Get to know the team members</li>
+          <li>Find a time to meet</li>
+          <li>Make a not of every team members strengths and weaknesses</li>
+        </ol>
+      </section>
+
+      <section id="unfinish">
+        <h2>Unfinished business</h2>
+        <p>Deciding a time to meet which works for everyone. <br />Deciding everyones roles</p>
+      </section>
+
+      <section id="newbus">
+        <h2>New business</h2>
+        <p>Brainstormed strategies on how to progress with the project:</p>
+        <ul>
+          <li><em>Effective communications</em> by communicating tasks and goals efficiently.</li>
+          <li>Clear purpose and objectives</li>
+          <li>Testing</li>
+          <li>Resource management</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Miscellaneous</h2>
+        <p>
+          <b>Whole team:</b> Completed the activity sheet. <br />
+          <b>Dhruv and Haoyan:</b> Introduced brief guidelines for the team to follow.
+        </p>
+        <details>
+          <summary>Click the team activity worksheet</summary>
+          <img src="image.png" alt="Completed Team Worksheet" width="500" />
+        </details>
+      </section>
+
+      <section id="media">
+        <h2>Meeting Media</h2>
+        <p>Audio recording:</p>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mpeg" />
+        </audio>
+
+        <p>Video recording:</p>
+        <video controls width="500">
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+      </section>
+    </main>
+    <footer id="form">
+      <hr />
+      <h2><b><i>Form</i></b></h2>
+      <form>
+        <fieldset>
+          <!--text input-->
+          <label for="name">Enter name:</label>
+          <input type="text" id="name" name="name" />
+          <br /><br />
+          
+          <!--date input-->
+          <label for="dt">Date of Birth:</label>
+          <input type="date" id="dt" name="dt" />
+          <br /><br />
+          
+          <!--radio buttons-->
+          <p>Role:</p>
+          <input type="radio" id="developer" name="role" value="developer" />
+          <label for="developer">Developer</label>
+          
+          <input type="radio" id="designer" name="role" value="designer" />
+          <label for="designer">Designer</label>
+          <br /><br />
+          
+          <!--checkbox inputs-->
+          <p>Favorite tool:</p>
+          <input type="checkbox" id="tool1" name="tools" value="VSCode" />
+          <label for="tool1">VSCode</label>
+
+          <input type="checkbox" id="tool2" name="tools" value="GitHub" />
+          <label for="tool2">GitHub</label>
+          <br /><br />
+
+          <!--datalist-->
+
+          <label for="favtool">Favorite tool:</label>
+          <input list="tool-list" id="favtool" name="favtool" />
+          <datalist id="tool-list">
+            <option value="VSCode" />
+            <option value="GitHub" />
+          </datalist>
+          <br /><br />
+          
+          <!--select and option-->
+          <label for="experience">Years of Experience:</label>
+          <select id="experience" name="experience">
+            <option value="0">0 years</option>
+            <option value="1">1–2 years</option>
+          </select>
+          <br /><br />
+
+          <!--textarea-->
+          <label for="comments">Comments and views:</label><br />
+          <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+          <br /><br />
+          
+          <!--button-->
+          <button type="submit">Submit form</button>
+        </fieldset>
+      </form>
+    </footer>
+    <div>
+      <span>CSE 110 Spring 25: Lab 2</span>
+    </div>
+  </body>
+</html>
