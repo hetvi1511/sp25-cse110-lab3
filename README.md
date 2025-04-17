@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-[Link to published URL](https://hetvi1511.github.io/Lab2_Starter/)
+# Lab 3
+[Link to published URL](https://hetvi1511.github.io/sp25-cse110-lab3/)
