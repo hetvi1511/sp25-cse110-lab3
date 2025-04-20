@@ -48,7 +48,7 @@ audio, video {
     height: 300px;
     max-width: 100%;
 }
-/* margin longhand */
+/* margin longhand and ID selector */
 section#agenda {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -63,6 +63,10 @@ section#unfinish {
 footer {
     margin: auto;
     width: 80%;
+}
+/* class selector */
+.footer-section {
+    background-color: #a3f5ad;
 }
 /* padding longhand */
 section#newbus {
@@ -89,7 +93,7 @@ video {
 audio, video {
     border-radius: 15px;
 }
-/* text color and align */
+/* text color and align and element selector and selector list */
 p, li, label, textarea {
     color: rgb(7, 19, 144);
     text-align: left;
@@ -123,7 +127,7 @@ header {
 audio {
     position: relative;
 }
-/* pseudo-class hover */
+/* pseudo-class hover and pseudo-class selector */
 a:hover {
     background-color: yellow;
 }
@@ -131,7 +135,7 @@ a:hover {
 button:active {
     background-color: rgb(255, 14, 14);
 }
-/* flexbox */
+/* flexbox and descendent selector */
 nav ul {
     display: flex;
     flex-direction: row;
@@ -169,5 +173,55 @@ input, label, textarea, select, button {
       width: 100%;
       height: auto;
       position: static;
+    }
+}
+/* universal selector */
+* {
+    outline: 1px solid lightgray;
+}
+/* attribute selector */
+input[type="text"] {
+    background-color: #81baec;
+}
+/* child combinator */
+ul > li {
+    list-style-type: square;
+}
+/* general sibling combinator */
+h2 ~ p {
+    font-style: italic;
+}
+/* adjacent sibling combinator */
+h2 + ol {
+    border: 2px dashed rgb(255, 0, 0);
+}
+/* combining 2 selectors */
+p.special-para {
+    font-weight: bold;
+    color: darkgreen;
+}
+/* has selector */
+section:has(audio) {
+    background-color: #f8c5e7;
+}
+/* nested selector */
+section#attendance {
+    background-color: #e9bafd;
+    padding: 15px;
+
+    h2 {
+        color: #5a1616;
+        text-align: center;
+    }
+
+    ul {
+        padding-left: 20px;
+
+        li {
+            font-size: 1.1rem;
+            strong {
+                color: darkred;
+            }
+        }
     }
 }
